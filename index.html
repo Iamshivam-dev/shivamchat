@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Chat app</title>
+
+
+
+    <script def er src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/Mainjs/client.js"></script> 
+   <link rel="stylesheet" href="/AddOns/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+   <script defer src="AddOns/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="mainStyle.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+
+
+
+
+        
+        <!-- chat box -->
+        <div class="chat-box">
+            <!-- client -->
+            <div class="overflow">
+                <!-- main chat section -->
+                <div class="chats">
+                    <div class="message " style="margin-left: 25%;">The Chat Start Here, Please don't use abusive words. Have Fun</div>
+                </div>
+            </div>
+            <!-- input field section -->
+            <form class="chat-input" id="send-container">
+                <input type="text" placeholder="Enter Message" id="messageInp" />
+                <button type="submit" class="send-btn">
+                    <img src="send.png" alt="send-btn">
+                </button>
+            </form>
+        </div>
+
+        <!-- button -->
+    
+</body>
+</html>

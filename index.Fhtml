@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width
+        initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- <title>Chat App</title>
+        
+         
+        <script def er src="http://localhost:8000/socket.io/socket.io.js"></script>
+         <script defer src="/Mainjs/client.js"></script> 
+        <link rel="stylesheet" href="/AddOns/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+        <script defer src="AddOns/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script> -->
+
+        <link rel="stylesheet" href="style.css">
+     
+    </head>
+    <body>
+        
+        <div class="bg-image"></div>
+
+        <!-- <div class="bg-text">
+            <div id="message-container"></div>
+            <form id="send-container">
+                <input type="text" id="message-input">
+                <button type="submit" class="btn btn-success" id="submit-button">Send</button>
+        </div>
+
+
+        </form> -->
+        <div class="bakcground"></div>
+        <div class="main-container">
+            <div class="new-container">
+                <div class="message right">Hello</div>
+                <div class="message left">Hiii</div>
+            </div>
+            <!-- <div class="send"> -->
+           
+            </div>
+        <!-- </div> -->
+
+        <div class="bottom">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp">
+                <button type="submit" class="btn btn-success customButton">send</button>
+            </form>
+        </div>
+    </body>
+</html>
